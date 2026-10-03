@@ -1,0 +1,14 @@
+name: rMorph
+version: 1.0.1
+main: net.ch4rlesexe.morph.MorphPlugin
+api-version: 1.21
+authors: ["ch4rlesexe"]
+commands:
+  morph:
+    description: Morph a player into a mob
+    usage: /morph <player> <mob>
+    permission: rmorph.morph
+  unmorph:
+    description: Revert a player's morph
+    usage: /unmorph <player>
+    permission: rmorph.morph
